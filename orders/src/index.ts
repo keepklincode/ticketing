@@ -9,7 +9,7 @@ import { PaymentCreatedListener } from "./events/listener/payment-created-listen
 mongoose.set('strictQuery', false);
 
  const start = async () =>{
-  console.log("Starting....")
+  console.log("Starting....up")
   if(!process.env.JWT_KEY) {
     throw new Error("JWT must be defined");
   }
