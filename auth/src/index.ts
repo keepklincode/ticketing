@@ -5,7 +5,8 @@ mongoose.set('strictQuery', false);
 
  const start = async () =>{
 
-  console.log("starting ..up");
+  console.log("starting........up");
+
   if(!process.env.JWT_KEY) {
     throw new Error("JWT must be defined");
   }
