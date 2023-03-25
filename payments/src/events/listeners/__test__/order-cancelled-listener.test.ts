@@ -41,7 +41,7 @@ it("updates the status of the order", async () =>{
 
     const updatedOrder = await Order.findById(order.id);
 
-    expect(updatedOrder!.status).toEqual(OrderStatus.cancelled);
+    expect(updatedOrder!.status).toEqual(OrderStatus.Cancelled);
 
 });
 
